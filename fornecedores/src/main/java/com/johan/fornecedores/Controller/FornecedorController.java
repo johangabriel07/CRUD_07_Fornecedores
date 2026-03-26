@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/fornecedores")
+@RequestMapping(path = "/fornecedores")
 public class FornecedorController {
 
     @Autowired
