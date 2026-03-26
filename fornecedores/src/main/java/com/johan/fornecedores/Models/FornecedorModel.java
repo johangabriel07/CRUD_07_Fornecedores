@@ -19,6 +19,9 @@ public class FornecedorModel {
     private String contato;
 
 
+    public FornecedorModel() {
+    }
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
